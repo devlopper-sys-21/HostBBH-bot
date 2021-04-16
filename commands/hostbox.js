@@ -27,7 +27,7 @@ const { Server } = require("http");
            else {
             message.channel.send("You don't have the scrim host role to host that!");
         }
-        hostchannel.send("")
+        hostchannel.send("<@&823697645238878218>")
     
         }
     }
