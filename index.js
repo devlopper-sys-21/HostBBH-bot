@@ -149,6 +149,7 @@ client.on('message', message =>{
       client.commands.get('hostbox').execute(message, args);
     }
 
+    /*
 
     if (message.author.id == client.user.id)
   return;
@@ -247,8 +248,9 @@ client.on('message', message =>{
         return message.channel.send(`Successfully gave points to**${user.tag}**`);
       }
       GivePointsok();
+      
     }
-  
+  */
 
   
 });
