@@ -25,5 +25,6 @@ const fs = require('fs');
            else {
             message.channel.send("You don't have the scrim host role to host that!");
         }
+        hostchannel.send("<@&823886415644852245>")
         }
     }
