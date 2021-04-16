@@ -92,7 +92,7 @@ client.on('message', message =>{
     else if(command === 'unban'){
       client.commands.get('unban').execute(message, args);
     }
-    /*
+    
     else if(command === 'info'){
       client.commands.get('info').execute(message, args);
     }
@@ -132,7 +132,7 @@ client.on('message', message =>{
     else if(command === 'soloandduoscrimrules'){
       client.commands.get('soloandduoscrimrules').execute(message, args);
     }
-    */
+    
     else if(command === 'hostkos'){
       client.commands.get('hostkos').execute(message, args);
     }
