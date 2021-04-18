@@ -15,7 +15,7 @@ const fs = require('fs');
            .setDescription(`** Before joining make sure to read the rules for Solo box scrims here 🎯︱scrims-rules .**\n \n**Hosted by** ${message.member} \n \n**Time to join : 2 minutes**\n \n**Winning points : 20**\n \n**Url :** ` + scrimMessage  )
            .setFooter(`new scrim created ✔`)
            .setColor("#FF0000")
-           .setImage("https://media.discordapp.net/attachments/780146136370774056/780434486479421470/kos.png")
+           .setImage("https://media.discordapp.net/attachments/625351405724631050/827989017353912350/scrimmsss.png?width=786&height=442")
     
            const hostchannel = message.client.channels.cache.get("827891361700904970")
     
