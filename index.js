@@ -95,6 +95,9 @@ client.on('message', message =>{
     else if(command === 'tournament1'){
       client.commands.get('tournament1').execute(message, args);
     }
+    else if(command === 'help'){
+      client.commands.get('help').execute(message, args);
+    }
     /*
     else if(command === 'info'){
       client.commands.get('info').execute(message, args);
