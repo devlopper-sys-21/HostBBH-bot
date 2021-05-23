@@ -11,7 +11,7 @@ module.exports = {
        .setImage("https://media.discordapp.net/attachments/625351405724631050/823005784698519582/unknown.png")
        .addField("How do I order?", "Well it's simple! You just need to go to this channel #♢︱order-here and then type in -ticket open [Your name]. A new channel gets made wich only you and the workers can chat in! And then you want to explain what do you want with details.")
        .setFooter("Official BBH GFX/VFX Store INFO 2021")
-       .setColor("#7d91f7")
+       .setColor("#69edff")
 
        message.channel.send(embed)
     }

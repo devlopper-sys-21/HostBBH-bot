@@ -7,10 +7,10 @@ module.exports = {
        .setTitle("BBH League")
        .setURL("")
        .setDescription("Hi and welcome to BBH league!\nWe work with a season format wich will take aproximatly 1 or 2 month.\nEach start of a season will be announced the schedule, the qualifiers format, the prize pool and ways that you can compete to win prizes.")
-       .setThumbnail("https://media.discordapp.net/attachments/602938015261655059/823316478082154536/TEAM_BBH_LETS_GO.png?width=442&height=442")
-       .setImage("https://media.discordapp.net/attachments/821483287037870130/827525191814610994/BBH_leaguee.png?width=786&height=442")
+       .setThumbnail("https://images-ext-1.discordapp.net/external/tKdc9-U2qHMr07soKs43R7Xak6ZQ_VV_bCt1IGxp0Z0/%3Fwidth%3D389%26height%3D345/https/media.discordapp.net/attachments/786777556476624957/845779764019200007/unknown.png?width=350&height=310")
+       .setImage("https://media.discordapp.net/attachments/818901790593777745/845781087946145822/bbh_season_2_logo.png?width=797&height=449")
        .setFooter("")
-       .setColor("#6d37fa")
+       .setColor("#69edff")
        .setURL("")
 
        message.channel.send(embed)

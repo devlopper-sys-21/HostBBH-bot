@@ -12,10 +12,10 @@ const fs = require('fs');
            embed = new Discord.MessageEmbed()
            .setTitle("Solo box scrim")
            .setURL("")
-           .setDescription(`** Before joining make sure to read the rules for Duo box scrims here 🎯︱scrims-rules .**\n \n**Hosted by** ${message.member} \n \n**Time to join : 2 minutes**\n \n**Winning points : 15 each**\n \n**Url :** ` + scrimMessage  )
+           .setDescription(`** Before joining make sure to read the rules for Duo box scrims here <#827300995498377246> **\n \n**Hosted by** ${message.member} \n \n**⏳ Time to join : 2 minutes**\n \n**🥇 Winning points : 15 each**\n \n**🔎 Url :** ` + scrimMessage  )
            .setFooter(`new scrim created ✔`)
-           .setColor("#FF0000")
-           .setImage("https://media.discordapp.net/attachments/625351405724631050/827989017353912350/scrimmsss.png?width=786&height=442")
+           .setColor("#69edff")
+           .setImage("https://images-ext-2.discordapp.net/external/84tM1PiaOJ6WPSlRpnn9derMThlVVLMKMxd3gopfo78/%3Fwidth%3D797%26height%3D449/https/media.discordapp.net/attachments/842914941290807355/842928405079261214/BOX_SCRIMS_SEASON_2.png?width=717&height=404")
     
            const hostchannel = message.client.channels.cache.get("827891361700904970")
     
