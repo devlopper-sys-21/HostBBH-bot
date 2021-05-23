@@ -78,11 +78,11 @@ client.on('message', message =>{
     else if(command === 'moderationcmd'){
       client.commands.get('moderationcmd').execute(message, args);
     }
-   
+   /*
     else if(command === 'rulesgfx'){
     client.commands.get('rulesgfx').execute(message, args);
     }
-    
+    */
     else if(command === 'kick'){
     client.commands.get('kick').execute(message, args);
     }
@@ -92,13 +92,15 @@ client.on('message', message =>{
     else if(command === 'unban'){
       client.commands.get('unban').execute(message, args);
     }
+    /*
     else if(command === 'tournament1'){
       client.commands.get('tournament1').execute(message, args);
     }
+    */
     else if(command === 'help'){
       client.commands.get('help').execute(message, args);
     }
-    
+    /*
     else if(command === 'info'){
       client.commands.get('info').execute(message, args);
     }
@@ -138,7 +140,7 @@ client.on('message', message =>{
     else if(command === 'soloandduoscrimrules'){
       client.commands.get('soloandduoscrimrules').execute(message, args);
     }
-    
+    */
     else if(command === 'hostkos'){
       client.commands.get('hostkos').execute(message, args);
     }
@@ -160,9 +162,11 @@ client.on('message', message =>{
     else if(command === 'hosttrio'){
       client.commands.get('hosttrio').execute(message, args);
     }
+    /*
     else if(command === 'bbhseason2'){
       client.commands.get('bbhseason2').execute(message, args);
     }
+    */
     else if(command === 'requestbl'){
       client.commands.get('requestbl').execute(message, args);
     }
