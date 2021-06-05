@@ -114,6 +114,50 @@ client.on('message', message =>{
     else if(command === 'hostbox'){
       client.commands.get('hostbox').execute(message, args);
     }
+    else if(command === 'tournament1'){
+      client.commands.get('tournament1').execute(message, args);
+    }
+    else if(command === 'storeprices'){
+      client.commands.get('storeprices').execute(message, args);
+    }
+    if(command === 'storeinfo'){
+      client.commands.get('storeinfo').execute(message, args);
+    }
+    if(command === 'soloandduoscrimrules'){
+      client.commands.get('soloandduoscrimrules').execute(message, args);
+    }
+    if(command === 'rulesgfx'){
+      client.commands.get('rulesgfx').execute(message, args);
+    }
+    if(command === 'ranksystem'){
+      client.commands.get('ranksystem').execute(message, args);
+    }
+    if(command === 'partnershipinfo'){
+      client.commands.get('partnershipinfo').execute(message, args);
+    }
+    if(command === 'kosrules'){
+      client.commands.get('kosrules').execute(message, args);
+    }
+    if(command === 'info'){
+      client.commands.get('info').execute(message, args);
+    }
+    if(command === 'ffaboxrules'){
+      client.commands.get('ffaboxrules').execute(message, args);
+    }
+    if(command === 'compinfo'){
+      client.commands.get('compinfo').execute(message, args);
+    }
+    if(command === 'boostperks'){
+      client.commands.get('boostperks').execute(message, args);
+    }
+    if(command === 'bbhseason2'){
+      client.commands.get('bbhseason2').execute(message, args);
+    }
+    if(command === 'verifyinfo'){
+      client.commands.get('verifyinfo').execute(message, args);
+    }
+
+
 
 });
 

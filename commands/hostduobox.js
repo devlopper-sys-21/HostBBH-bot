@@ -18,16 +18,18 @@ const { Server } = require("http");
            .setColor("#69edff")
            .setImage("https://images-ext-1.discordapp.net/external/IGyeUyD9mM_wIus2RMfn9xJmWm5zPUXsQlBncE4Clh0/%3Fwidth%3D797%26height%3D449/https/media.discordapp.net/attachments/842914941290807355/842928429992771594/ffa_box_scrims_season_2.png?width=717&height=404")
     
-           const hostchannel = message.client.channels.cache.get("827891361700904970")
+           const hostchannel = message.client.channels.cache.get("842914941290807348")
     
-           
-           if (message.member.roles.cache.has('825153810258984970')) {
+           if (message.member.roles.cache.has('842914940493889580')) {
             hostchannel.send(embed)
+            if (message.member.roles.cache.has("842914940493889580")) {
+                hostchannel.send("<@&842914940461252664>")
+            }
            }
            else {
             message.channel.send("You don't have the scrim host role to host that!");
         }
-        hostchannel.send("<@&823886415644852245>")
-    
-        }
+
     }
+
+}
