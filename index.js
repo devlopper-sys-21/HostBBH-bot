@@ -102,6 +102,7 @@ client.on('message', message =>{
     else if(command === 'hostbox'){
       client.commands.get('hostbox').execute(message, args);
     }
+    /*
     else if(command === 'tournament1'){
       client.commands.get('tournament1').execute(message, args);
     }
@@ -156,6 +157,7 @@ client.on('message', message =>{
     if(command === 'realisticsrules'){
       client.commands.get('realisticsrules').execute(message, args);
     }
+    */
     if(command === 'hostsolorealistics'){
       client.commands.get('hostsolorealistics').execute(message, args);
     }
