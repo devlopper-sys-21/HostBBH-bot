@@ -14,7 +14,7 @@ const fs = require('fs');
            .setURL("")
            .setDescription(`** Before joining make sure to read the rules for Duo box scrims here <#827300995498377246> **\n \n**Hosted by** ${message.member} \n \n**⏳ Time to join : 2 minutes**\n \n**🥇 Winning points : 20**\n \n**🔎 Url :** ` + scrimMessage  )
            .setFooter(``)
-           .setColor("#69edff")
+           .setColor("#2af75a")
            .setImage("https://media.discordapp.net/attachments/602938015261655059/866338981968478228/realistics.png?width=798&height=449")
     
     

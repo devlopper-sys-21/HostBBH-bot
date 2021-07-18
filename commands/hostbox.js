@@ -15,7 +15,7 @@ const { Server } = require("http");
            .setURL("")
            .setDescription(`** Before joining make sure to read the rules for FFA BOX scrims here <#827300995498377246> .**\n \n**Hosted by** ${message.member} \n \n**⏳ Time to join : 2 minutes**\n \n**🥇 Winning points : 15 points **\n \n**🔎 Url :** ` + scrimMessage)
            .setFooter(``)
-           .setColor("#69edff")
+           .setColor("#ff7a38")
            .setImage("https://media.discordapp.net/attachments/602938015261655059/866312854750625802/boxfights_scrims.png")
     
     

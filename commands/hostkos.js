@@ -14,7 +14,7 @@ const fs = require('fs');
            .setURL("")
            .setDescription(`** Before joining make sure to read the rules for Kos scrims here <#842914941290807346> .**\n \n**Hosted by** ${message.member} \n \n**⏳ Time to join : 2 minutes**\n \n**🥇 Winning points : 20 points **\n \n**🔎 Url :** ` + scrimMessage  )
            .setFooter(``)
-           .setColor("#69edff")
+           .setColor("#ff7a38")
            .setImage("https://media.discordapp.net/attachments/602938015261655059/866311580601942036/kos_scrims.png?width=798&height=449")
     
            const hostchannel = message.client.channels.cache.get("842914941290807348")
