@@ -96,20 +96,8 @@ client.on('message', message =>{
     else if(command === 'ban'){
       client.commands.get('ban').execute(message, args);
     }
-    else if(command === 'hosttrio'){
-      client.commands.get('hosttrio').execute(message, args);
-    }
     else if(command === 'hostkos'){
       client.commands.get('hostkos').execute(message, args);
-    }
-    else if(command === 'hostsolo'){
-      client.commands.get('hostsolo').execute(message, args);
-    }
-    else if(command === 'hostduobox'){
-      client.commands.get('hostduobox').execute(message, args);
-    }
-    else if(command === 'hostduo'){
-      client.commands.get('hostduo').execute(message, args);
     }
     else if(command === 'hostbox'){
       client.commands.get('hostbox').execute(message, args);
@@ -156,6 +144,26 @@ client.on('message', message =>{
     if(command === 'verifyinfo'){
       client.commands.get('verifyinfo').execute(message, args);
     }
+    if(command === 'activityperks'){
+      client.commands.get('activityperks').execute(message, args);
+    }
+    if(command === 'adprices'){
+      client.commands.get('adprices').execute(message, args);
+    }
+    if(command === 'scrimsrules'){
+      client.commands.get('scrimsrules').execute(message, args);
+    }
+    if(command === 'realisticsrules'){
+      client.commands.get('realisticsrules').execute(message, args);
+    }
+    if(command === 'hostsolorealistics'){
+      client.commands.get('hostsolorealistics').execute(message, args);
+    }
+    if(command === 'hostduorealistics'){
+      client.commands.get('hostduorealistics').execute(message, args);
+    }
+
+    //hostsolorealistics hostduorealistics
 
 
 

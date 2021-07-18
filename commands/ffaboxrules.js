@@ -6,10 +6,10 @@ module.exports = {
        embed = new Discord.MessageEmbed()
        .setTitle("FFA solo and duo Box scrims rules")
        .setURL("")
-       .setDescription("**How to win a ffa solo or duo box game**\n\n *You need to be the last person or duo alive!*\n\n♢ Pump and Ar are the only guns allowed(or perm kick)\n♢ The box is 12x12\n♢ Respawn after died = perm kick from the server (only if the host said respawn)\n♢ Griffing = permkick\n♢ Don't be toxic when someone kill you.\n♢ Hacks are not allowed!\n♢ No Boombox or Radio playing.\n♢ Alts account are not allowed! we define alts as account made the same week or not verified with the Bloxlink bot in the server.\n")
-       .setImage("https://media.discordapp.net/attachments/842914941290807355/842928429992771594/ffa_box_scrims_season_2.png?width=797&height=449")
+       .setDescription("**How to win a ffa solo**\n\n *You need to be the last person in the box alive!*\n\n♢ Assualt Rifle (AR) and Pump Shotgun are the only guns allowed(or perm kick)\n♢ The box is gonna be build in desert map\n♢ Respawn after died = perm kick from the server (only if the host said respawn)\n♢ Griffing = permkick\n♢ Don't be toxic when someone kill you.\n♢ Hacks are not allowed!\n♢ No Boombox or Radio playing.\n♢ Alts account are not allowed! we define alts as account made within a month and you should be verified with bloxlink\n")
+       .setImage("https://media.discordapp.net/attachments/602938015261655059/866312854750625802/boxfights_scrims.png")
        .setFooter(`FFA box scrims rules`)
-       .setColor("#69edff")
+       .setColor("#ff3060")
 
        message.channel.send(embed)
     }
