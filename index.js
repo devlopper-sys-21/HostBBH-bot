@@ -158,13 +158,20 @@ client.on('message', message =>{
       client.commands.get('realisticsrules').execute(message, args);
     }
     */
-    if(command === 'hostsolorealistics'){
-      client.commands.get('hostsolorealistics').execute(message, args);
+    if(command === 'hostsolorotations'){
+      client.commands.get('hostsolorotations').execute(message, args);
     }
-    if(command === 'hostduorealistics'){
-      client.commands.get('hostduorealistics').execute(message, args);
+    if(command === 'hostduorotations'){
+      client.commands.get('hostduorotations').execute(message, args);
     }
-
+    /*
+    if(command === 'bannedguns'){
+      client.commands.get('bannedguns').execute(message, args);
+    }
+    if(command === 'rotationsrules'){
+      client.commands.get('rotationsrules').execute(message, args);
+    }
+    */
     //hostsolorealistics hostduorealistics
 
 
